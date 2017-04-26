@@ -184,6 +184,13 @@ void motorWrite(uint8_t motor, float value)
     }
 }
 
+//Stub
+//Should return the robots tilt from vertical in degrees
+float getTilt()
+{
+
+}
+
 gpio_t MOTOR_1_INA = {RA, 0, OUTPUT};
 gpio_t MOTOR_1_INB = {RA, 1, OUTPUT};
 gpio_t MOTOR_2_INA = {RB, 0, OUTPUT};
